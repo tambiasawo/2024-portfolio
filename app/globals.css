@@ -88,17 +88,59 @@
   }
 
   .tech-stack {
-    animation: rollup linear 10s infinite;
+    animation: roll-right linear 22s infinite;
     animation-delay: 2s;
   }
 
-  @keyframes rollup {
+  .reverse-tech-stack {
+    animation: roll-left linear 19s infinite;
+    animation-delay: 2s;
+  }
+
+  .tech-stack:hover,
+  .reverse-tech-stack:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes roll-right {
     0% {
-      transform: translateX(-10%);
+      transform: translateY(-100%);
     }
 
     100% {
-      transform: translateX(-100%);
+      transform: translateY(100%);
+    }
+  }
+
+  @keyframes roll-left {
+    0% {
+      transform: translateY(100%);
+    }
+
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  @media (max-width: 640px) {
+    @keyframes roll-right {
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    @keyframes roll-left {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
     }
   }
 }
