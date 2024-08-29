@@ -12,7 +12,7 @@ export const gridItems = [
     description: "I constantly try to improve",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-start",
+    titleClassName: "",
     img: "/b1.svg",
     spareImg: "",
   },
@@ -31,9 +31,9 @@ export const gridItems = [
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
+    imgClassName: "brightness-75",
     titleClassName: "justify-center",
-    img: "",
+    img: "/client-collab.png",
     spareImg: "",
   },
   {
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Next.js E-commerce Store",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -71,15 +71,6 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Quiz App",
-    des: "How knowledgeable are you with current affairs? Use this app to test your knowledge skills",
-    img: "/quiz.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://quiz-fullstack-app-2024-v2.onrender.com/",
-    githubLink: "https://github.com/tambiasawo/quiz-fullstack-app-2024",
-  },
-  {
     id: 2,
     title: "NextJS Dashboard",
     des: "Not your normal dashboard. Built with NextJS 14, with interactive tables and advanced features. Sign in as either an admin or user. admin: peter, password: user: sarah, password",
@@ -89,13 +80,22 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/Tambi-NextJS-Dashboard",
   },
   {
-    id: 3,
-    title: "MERN Authentication",
-    des: "Built with the MERN stack, you can create a new account, sign in and edit your profile. Sign in with: user17@yahoo.com and user17",
-    img: "/mern-auth.png",
-    iconLists: ["/re.svg", "/node.svg", "/mongo.svg"],
-    link: "https://mern-fullstack-app-one.vercel.app/",
+    id: 1,
+    title: "Quiz App",
+    des: "How knowledgeable are you with current affairs? Use this app to test your knowledge skills",
+    img: "/quiz.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://quiz-fullstack-app-2024-v2.onrender.com/",
     githubLink: "https://github.com/tambiasawo/quiz-fullstack-app-2024",
+  },
+  {
+    id: 3,
+    title: "Image Gallery",
+    des: "This app lets users fetch images from an external API based on your preferences and perform actions against the images.",
+    img: "/image-gallery.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://image-gallery-lyart-omega.vercel.app/",
+    githubLink: "https://github.com/tambiasawo/image-gallery",
   },
   {
     id: 4,
@@ -184,29 +184,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Senior Frontend Engineer ",
+    desc: "Successfully transitioned the codebase from React frontend framework to the Next.js fullstack framework enhancing performance and enabling server-side rendering capabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Frontend Engineer ",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Frontend Developer ",
+    desc: "Revamped legacy code using React.js to build interactive and dynamic components resulting in a 30% increase in user engagement metrics and overall website performance.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Quality Assurance Development Support",
+    desc: "Maintained the Quality Assurance pipeline from discovery through fix, to implementation and regression verification, ensuring high standards of quality.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
