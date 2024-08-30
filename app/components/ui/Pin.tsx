@@ -28,7 +28,7 @@ export const PinContainer = ({
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
   const handleClick = () => {
-    window.open(`${href}`, "_blank");
+    window?.open(`${href}`, "_blank");
   };
 
   return (
