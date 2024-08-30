@@ -76,7 +76,7 @@ export const projects = [
     des: "Not your normal dashboard. Built with NextJS 14, with interactive tables and advanced features. Sign in as either an admin or user. admin: peter, password: user: sarah, password",
     img: "/nextjsdashboard.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://tambi-next-js-dashboard-yljk.vercel.app",
     githubLink: "https://github.com/tambiasawo/Tambi-NextJS-Dashboard",
   },
   {
