@@ -71,6 +71,25 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 6,
+    title: "Web3 Digital Identity App",
+    des: "This Web3 app built with Solidity and Next.js helps you verify your web3 identity. Sign in through your wallet",
+    img: "/web3.png",
+    iconLists: ["solidity.png", "/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://web3-digital-identity.vercel.app",
+    githubLink: "https://github.com/tambiasawo/web3-digital-identity",
+  },
+
+  {
+    id: 4,
+    title: "Netflix Clone",
+    des: "Experience Netflix or rather have a taste Netflix. Sign in with test@test.com and 123456 or create your account",
+    img: "/netflix.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://netflix-clone-one-plum-86.vercel.app/login",
+    githubLink: "https://github.com/tambiasawo/netflix-clone",
+  },
+  {
     id: 2,
     title: "NextJS Dashboard",
     des: "Not your normal dashboard. Built with NextJS 14, with interactive tables and advanced features. Sign in as either an admin or user. admin: peter, password: user: sarah, password",
@@ -97,15 +116,7 @@ export const projects = [
     link: "https://image-gallery-lyart-omega.vercel.app/",
     githubLink: "https://github.com/tambiasawo/image-gallery",
   },
-  {
-    id: 4,
-    title: "Netflix Clone",
-    des: "Experience Netflix or rather have a taste Netflix. Sign in with test@test.com and 123456 or create your account",
-    img: "/netflix.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://netflix-clone-one-plum-86.vercel.app/login",
-    githubLink: "https://github.com/tambiasawo/netflix-clone",
-  },
+
   {
     id: 5,
     title: "Color Guesser Game",
