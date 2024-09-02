@@ -71,7 +71,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 6,
+    id: 1,
     title: "Web3 Digital Identity App",
     des: "This Web3 app built with Solidity and Next.js helps you verify your web3 identity. Sign in through your wallet",
     img: "/web3.png",
@@ -81,7 +81,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 2,
     title: "Netflix Clone",
     des: "Experience Netflix or rather have a taste Netflix. Sign in with test@test.com and 123456 or create your account",
     img: "/netflix.png",
@@ -90,7 +90,7 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/netflix-clone",
   },
   {
-    id: 2,
+    id: 3,
     title: "NextJS Dashboard",
     des: "Not your normal dashboard. Built with NextJS 14, with interactive tables and advanced features. Sign in as either an admin or user. admin: peter, password: user: sarah, password",
     img: "/nextjsdashboard.png",
@@ -99,7 +99,7 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/Tambi-NextJS-Dashboard",
   },
   {
-    id: 1,
+    id: 4,
     title: "Quiz App",
     des: "How knowledgeable are you with current affairs? Use this app to test your knowledge skills",
     img: "/quiz.png",
@@ -108,7 +108,7 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/quiz-fullstack-app-2024",
   },
   {
-    id: 3,
+    id: 5,
     title: "Image Gallery",
     des: "This app lets users fetch images from an external API based on your preferences and perform actions against the images.",
     img: "/image-gallery.png",
@@ -118,7 +118,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Color Guesser Game",
     des: "Think you know your color codes well? Well, let's see",
     img: "/color-guesser.png",
@@ -127,7 +127,7 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/colorguessgame",
   },
   {
-    id: 5,
+    id: 7,
     title: "Movie Search",
     des: "This mobile responsive app uses axios to fetch data from the TMDB API. It filters the fetched movies as input changes and also has pagination.",
     img: "/movie-search.png",
