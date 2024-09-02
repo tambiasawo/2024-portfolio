@@ -6,7 +6,7 @@ import Grid from "./Grid";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-16 md:pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -31,8 +31,8 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+      <div className="mb-10 flex justify-center relative my-20 z-10">
+        <div className="space-y-8 md:space-y-5 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             words="Elevate Your Digital Presence with Expert Frontend Engineering"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
