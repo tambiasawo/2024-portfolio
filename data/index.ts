@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Web3 Digital Identity App",
+    title: "Currently working on my AWS Solutions Architect Certification",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -113,11 +113,11 @@ export const projects = [
     des: "This app lets users fetch images from an external API based on your preferences and perform actions against the images.",
     img: "/image-gallery.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://image-gallery-lyart-omega.vercel.app/",
+    link: "https://image-gallery-lyart-top-bunny.vercel.app/",
     githubLink: "https://github.com/tambiasawo/image-gallery",
   },
 
-  {
+  /*  {
     id: 6,
     title: "Color Guesser Game",
     des: "Think you know your color codes well? Well, let's see",
@@ -125,7 +125,7 @@ export const projects = [
     iconLists: ["/javascript.svg", "/css3.svg", "/html.svg"],
     link: "https://color-guesser-game.netlify.app",
     githubLink: "https://github.com/tambiasawo/colorguessgame",
-  },
+  }, */
   {
     id: 7,
     title: "Movie Search",
