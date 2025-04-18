@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" }, 
+  { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -171,7 +171,12 @@ export const testimonials = [
     name: "Oghosa Ogie",
     title: "Director, Webgigg Team",
   },
-
+  {
+    quote:
+      "I had a fantastic experience working with Tambi from Tambs Digital Marketing on my website. From the very beginning, he brought a great balance of creativity, technical skill, and professionalism. He really took the time to understand my vision and translated it into a clean, user-friendly, and visually engaging site that I’m proud to share. Communication was smooth throughout, deadlines were met, and any feedback I gave was thoughtfully incorporated. I couldn’t be happier with the final product — highly recommended for anyone looking for a reliable and talented web developer!",
+    name: "Kwame Awauh",
+    title: "Founder and CEO, Verde Vision",
+  },
   {
     quote:
       "Tambi has been a very well-versed scholar on the subject of Advanced JavaScript. I would highly recommend him to any role that requires hands-on knowledge of NextJs, ReactJs and JavaScript.",
