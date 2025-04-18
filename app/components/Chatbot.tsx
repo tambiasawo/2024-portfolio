@@ -11,7 +11,7 @@ const ChatbotSnippet = () => {
         dangerouslySetInnerHTML={{
           __html: `
         window.chatbaseConfig = {
-          chatbotId: "lrarssCbUBpIr0MkaL1Rc"
+          chatbotId: "${process.env.NEXT_PUBLIC_CHATBOTID}"
         }
       `,
         }}
