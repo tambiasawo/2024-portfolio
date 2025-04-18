@@ -116,24 +116,45 @@ export const projects = [
     link: "https://image-gallery-lyart-top-bunny.vercel.app/",
     githubLink: "https://github.com/tambiasawo/image-gallery",
   },
-
-  /*  {
-    id: 6,
-    title: "Color Guesser Game",
-    des: "Think you know your color codes well? Well, let's see",
-    img: "/color-guesser.png",
-    iconLists: ["/javascript.svg", "/css3.svg", "/html.svg"],
-    link: "https://color-guesser-game.netlify.app",
-    githubLink: "https://github.com/tambiasawo/colorguessgame",
-  }, */
   {
-    id: 7,
+    id: 6,
     title: "Movie Search",
     des: "This mobile responsive app uses axios to fetch data from the TMDB API. It filters the fetched movies as input changes and also has pagination.",
     img: "/movie-search.png",
     iconLists: ["/re.svg", "/css3.svg"],
     link: "https://csb-qn78n3.vercel.app",
     githubLink: "https://github.com/tambiasawo/IMDBMovieSearch",
+  },
+];
+
+export const allProjects = [
+  ...projects,
+  {
+    id: 7,
+    title: "Color Guesser Game",
+    des: "Think you know your color codes well? Well, let's see",
+    img: "/color-guesser.png",
+    iconLists: ["/javascript.svg", "/css3.svg", "/html.svg"],
+    link: "https://color-guesser-game.netlify.app",
+    githubLink: "https://github.com/tambiasawo/colorguessgame",
+  },
+  {
+    id: 8,
+    title: "Color Guesser Game",
+    des: "Think you know your color codes well? Well, let's see",
+    img: "/color-guesser.png",
+    iconLists: ["/javascript.svg", "/css3.svg", "/html.svg"],
+    link: "https://color-guesser-game.netlify.app",
+    githubLink: "https://github.com/tambiasawo/colorguessgame",
+  },
+  {
+    id: 9,
+    title: "Color Guesser Game",
+    des: "Think you know your color codes well? Well, let's see",
+    img: "/color-guesser.png",
+    iconLists: ["/javascript.svg", "/css3.svg", "/html.svg"],
+    link: "https://color-guesser-game.netlify.app",
+    githubLink: "https://github.com/tambiasawo/colorguessgame",
   },
 ];
 
