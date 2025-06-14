@@ -3,6 +3,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { CardBody, CardContainer, CardItem } from "./ui/ThreeDCardEffect";
+import { Tooltip } from "./ui/Tooltip";
+
 import Link from "next/link";
 
 const RecentProjects = () => {
@@ -41,17 +43,33 @@ const RecentProjects = () => {
                   {item.title}
                 </h1>
               </CardItem>
-              <CardItem>
-                <p
-                  className="md:text-xl lg:font-normal font-light text-sm line-clamp-3"
-                  style={{
-                    color: "#BEC1DD",
-                    margin: "1vh 0",
-                  }}
-                >
-                  {item.des}
-                </p>
-              </CardItem>
+              {item.des.length >= 129 ? (
+                <Tooltip id={item.id} content={item.des}>
+                  <CardItem>
+                    <p
+                      className="md:text-xl lg:font-normal font-light text-sm line-clamp-3"
+                      style={{
+                        color: "#BEC1DD",
+                        margin: "1vh 0",
+                      }}
+                    >
+                      {item.des}
+                    </p>
+                  </CardItem>
+                </Tooltip>
+              ) : (
+                <CardItem>
+                  <p
+                    className="md:text-xl lg:font-normal font-light text-sm"
+                    style={{
+                      color: "#BEC1DD",
+                      margin: "1vh 0",
+                    }}
+                  >
+                    {item.des}
+                  </p>
+                </CardItem>
+              )}
               <div className="flex items-center justify-between mt-7 mb-3">
                 <CardItem className="flex items-center">
                   {item.iconLists.map((icon, index) => (
