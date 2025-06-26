@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import { FloatingNav } from "./ui/FloatingNavbar";
 import { navItems } from "@/data";
-import RecentProjects from "./RecentProjects2";
+import RecentProjects from "./RecentProjects";
 import Clients from "./Clients";
 import Experiences from "./Experience";
 import Process from "./Process";
