@@ -72,6 +72,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "AI Background Check",
+    des: "Get a background report on a prospective employee, tenant or anyone. Just enter their personal information. Great for landlords, financial institutions or daycares",
+    img: "/ai-bg-check.png",
+    iconLists: ["re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://open-ai-background-check.vercel.app/",
+    githubLink: "https://github.com/tambiasawo/open-ai-background-check/",
+  },
+
+  //
+  {
+    id: 2,
     title: "Rental Lisiting Application",
     des: "This 7-step app takes you through the process of applying for a rental listing. From ID verification, to credit check to background check all the way to in-app signing of lease documents. This is your one-stop application for online renting ",
     img: "/rental-app.png",
@@ -81,7 +92,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "NextJS Dashboard",
     des: "Not your normal dashboard. Built with NextJS 14, with interactive tables and advanced features. Sign in as either an admin or user. admin: peter, password: user: sarah, password",
     img: "/nextjsdashboard.png",
@@ -90,16 +101,17 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/Tambi-NextJS-Dashboard",
   },
   {
-    id: 3,
-    title: "Image Gallery",
-    des: "This app lets users fetch images from an external API based on your preferences and perform actions against the images.",
-    img: "/image-gallery.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://image-gallery-lyart-top-bunny.vercel.app/",
-    githubLink: "https://github.com/tambiasawo/image-gallery",
+    id: 4,
+
+    title: "Quiz App",
+    des: "How knowledgeable are you with current affairs? Use this app to test your knowledge skills",
+    img: "/quiz.png",
+    iconLists: ["/node.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://quiz-fullstack-app-2024-v2.onrender.com/",
+    githubLink: "https://github.com/tambiasawo/quiz-fullstack-app-2024",
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie Search",
     des: "This mobile responsive app uses axios to fetch data from the TMDB API. It filters the fetched movies as input changes and also has pagination.",
     img: "/movie-search.png",
@@ -108,7 +120,7 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/IMDBMovieSearch",
   },
   {
-    id: 5,
+    id: 6,
     title: "Netflix Clone",
     des: "Experience Netflix or rather have a taste Netflix. Sign in with test@test.com and 123456 or create your account",
     img: "/netflix.png",
@@ -117,27 +129,18 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/netflix-clone",
   },
   {
-    id: 6,
-    title: "Quiz App",
-    des: "How knowledgeable are you with current affairs? Use this app to test your knowledge skills",
-    img: "/quiz.png",
-    iconLists: ["/node.svg", "/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://quiz-fullstack-app-2024-v2.onrender.com/",
-    githubLink: "https://github.com/tambiasawo/quiz-fullstack-app-2024",
+    id: 7,
+    title: "Image Gallery",
+    des: "This app lets users fetch images from an external API based on your preferences and perform actions against the images.",
+    img: "/image-gallery.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://image-gallery-lyart-top-bunny.vercel.app/",
+    githubLink: "https://github.com/tambiasawo/image-gallery",
   },
 ];
 
 export const allProjects = [
   ...projects,
-  {
-    id: 7,
-    title: "Color Guesser Game",
-    des: "Think you know your color codes well? Well, let's see",
-    img: "/color-guesser.png",
-    iconLists: ["/javascript.svg", "/css3.svg", "/html.svg"],
-    link: "https://color-guesser-game.netlify.app",
-    githubLink: "https://github.com/tambiasawo/colorguessgame",
-  },
   {
     id: 8,
     title: "Color Guesser Game",

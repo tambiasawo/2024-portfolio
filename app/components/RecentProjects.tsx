@@ -2,52 +2,76 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
+import { CardBody, CardContainer, CardItem } from "./ui/ThreeDCardEffect";
+import { Tooltip } from "./ui/Tooltip";
+
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div id="projects" className="py-20">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-0 md:gap-16 mt-10">
         {projects.map((item) => (
-          <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+          <CardContainer
+            className="rounded-lg flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer title={`Visit`} href={`${item.link}`}>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
-              </div>
+            <CardBody>
+              <CardBody className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[33vh] mb-5 lg:mb-10">
+                <Link href={item.link} target="_blank" about={item.title}>
+                  <CardItem
+                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                    style={{ backgroundColor: "#13162D" }}
+                  >
+                    <img src="/bg.png" alt="bgimg" />
+                  </CardItem>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
-              </h1>
+                  <img
+                    src={item.img}
+                    alt="cover"
+                    className="z-10 absolute bottom-0"
+                  />
+                </Link>
+              </CardBody>
 
-              <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-3"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
-              >
-                {item.des}
-              </p>
-
+              <CardItem>
+                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                  {item.title}
+                </h1>
+              </CardItem>
+              {item.des.length >= 129 ? (
+                <Tooltip id={item.id} content={item.des}>
+                  <CardItem>
+                    <p
+                      className="md:text-xl lg:font-normal font-light text-sm line-clamp-3"
+                      style={{
+                        color: "#BEC1DD",
+                        margin: "1vh 0",
+                      }}
+                    >
+                      {item.des}
+                    </p>
+                  </CardItem>
+                </Tooltip>
+              ) : (
+                <CardItem>
+                  <p
+                    className="md:text-xl lg:font-normal font-light text-sm"
+                    style={{
+                      color: "#BEC1DD",
+                      margin: "1vh 0",
+                    }}
+                  >
+                    {item.des}
+                  </p>
+                </CardItem>
+              )}
               <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
+                <CardItem className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
@@ -59,28 +83,28 @@ const RecentProjects = () => {
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
-                </div>
+                </CardItem>
 
-                <div className="flex justify-center items-center gap-3">
+                <CardItem className="flex justify-center items-center gap-3">
                   <a
-                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    className="flex md:text-xl text-sm text-purple"
                     href={`${item.link}`}
                     target="_blank"
                   >
                     Live Site
                   </a>
                   <a
-                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    className="flex md:text-xl text-sm text-purple"
                     href={`${item.githubLink}`}
                     target="_blank"
                   >
                     GitHub
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                </CardItem>
               </div>
-            </PinContainer>
-          </div>
+            </CardBody>
+          </CardContainer>
         ))}
       </div>
     </div>
