@@ -1,10 +1,10 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaFilePdf } from "react-icons/fa6";
 import { projects } from "@/data";
 import { CardBody, CardContainer, CardItem } from "./ui/ThreeDCardEffect";
 import { Tooltip } from "./ui/Tooltip";
-
+import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
 
 const RecentProjects = () => {
@@ -106,6 +106,20 @@ const RecentProjects = () => {
             </CardBody>
           </CardContainer>
         ))}
+      </div>
+
+      <div className="flex justify-center mt-3">
+        <a
+          href="https://drive.google.com/file/d/1DyoZBYrkwqQ20GptXzJzPaHZcRSFJwrC/view"
+          target="_blank"
+          about="resume"
+        >
+          <MagicButton
+            title="View My Resume"
+            icon={<FaFilePdf fontSize={24}/>}
+            position="left"
+          />
+        </a>
       </div>
     </div>
   );
