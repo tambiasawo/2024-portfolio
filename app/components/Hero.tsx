@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="mb-10 flex justify-center relative my-20 z-10">
         <div className="space-y-8 md:space-y-5 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
-            words="Elevate Your Digital Presence with Expert Frontend Engineering"
+            words="Elevate Your Digital Presence with Expert Software Engineering"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
