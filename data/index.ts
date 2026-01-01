@@ -101,16 +101,6 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/Tambi-NextJS-Dashboard",
   },
   {
-    id: 4,
-
-    title: "Quiz App",
-    des: "How knowledgeable are you with current affairs? Use this app to test your knowledge skills",
-    img: "/quiz.png",
-    iconLists: ["/node.svg", "/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://quiz-fullstack-app-2024-v2.onrender.com/",
-    githubLink: "https://github.com/tambiasawo/quiz-fullstack-app-2024",
-  },
-  {
     id: 5,
     title: "Movie Search",
     des: "This mobile responsive app uses axios to fetch data from the TMDB API. It filters the fetched movies as input changes and also has pagination.",
