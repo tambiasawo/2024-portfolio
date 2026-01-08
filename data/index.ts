@@ -79,8 +79,6 @@ export const projects = [
     link: "https://open-ai-background-check.vercel.app/",
     githubLink: "https://github.com/tambiasawo/open-ai-background-check/",
   },
-
-  //
   {
     id: 2,
     title: "Rental Lisiting Application",
@@ -89,6 +87,15 @@ export const projects = [
     iconLists: ["re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://services.rentalapplication.rented123.com/?slug=1010-osprey-court-1",
     githubLink: "https://github.com/techrented123/rental-app",
+  },
+  {
+    id: 4,
+    title: "Full-stack e-commerce app (PERN).",
+    des: "Full-featured e-commerce project with a React SPA front end and an Express/Node.js REST API backed by PostgreSQL. Add, edit, delete products. Used Neon database as the data store. Built to be deployment-ready and easy to extend.",
+    img: "/ecommerce.png",
+    iconLists: ["/re.svg", "/node.svg", "/tail.svg", "/ts.svg"],
+    link: "https://ecommerce-app-pern.vercel.app/",
+    githubLink: "https://github.com/tambiasawo/ecommerce-app-pern",
   },
 
   {
@@ -100,15 +107,7 @@ export const projects = [
     link: "https://tambi-next-js-dashboard-yljk.vercel.app",
     githubLink: "https://github.com/tambiasawo/Tambi-NextJS-Dashboard",
   },
-  {
-    id: 5,
-    title: "Movie Search",
-    des: "This mobile responsive app uses axios to fetch data from the TMDB API. It filters the fetched movies as input changes and also has pagination.",
-    img: "/movie-search.png",
-    iconLists: ["/re.svg", "/css3.svg"],
-    link: "https://csb-qn78n3.vercel.app",
-    githubLink: "https://github.com/tambiasawo/IMDBMovieSearch",
-  },
+
   {
     id: 6,
     title: "Netflix Clone",
@@ -131,6 +130,15 @@ export const projects = [
 
 export const allProjects = [
   ...projects,
+    {
+    id: 5,
+    title: "Movie Search",
+    des: "This mobile responsive app uses axios to fetch data from the TMDB API. It filters the fetched movies as input changes and also has pagination.",
+    img: "/movie-search.png",
+    iconLists: ["/re.svg", "/css3.svg"],
+    link: "https://csb-qn78n3.vercel.app",
+    githubLink: "https://github.com/tambiasawo/IMDBMovieSearch",
+  },
   {
     id: 8,
     title: "Color Guesser Game",
