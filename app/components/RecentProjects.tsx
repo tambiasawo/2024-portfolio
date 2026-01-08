@@ -110,9 +110,9 @@ const RecentProjects = () => {
 
       <div className="flex justify-center mt-3">
         <a
-          href="https://drive.google.com/file/d/1DyoZBYrkwqQ20GptXzJzPaHZcRSFJwrC/view"
+          href="https://drive.google.com/file/d/1DdsQ0UlE6KepkTJV1lBS7H7Qh8_bVVIo/view?usp=sharing"
           target="_blank"
-          about="resume"
+          about="Tambi Resume"
         >
           <MagicButton
             title="View My Resume"
