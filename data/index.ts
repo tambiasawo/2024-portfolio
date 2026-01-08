@@ -93,7 +93,7 @@ export const projects = [
     title: "Full-stack e-commerce app (PERN).",
     des: "Full-featured e-commerce project with a React SPA front end and an Express/Node.js REST API backed by PostgreSQL. Add, edit, delete products. Used Neon database as the data store. Built to be deployment-ready and easy to extend.",
     img: "/ecommerce.png",
-    iconLists: ["/re.svg", "/node.svg", ],
+    iconLists: ["/re.svg", "/node.svg", "/postgres.png" ],
     link: "https://ecomm-pern-stack.onrender.com/",
     githubLink: "https://github.com/tambiasawo/ecommerce-app-pern",
   },
