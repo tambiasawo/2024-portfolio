@@ -91,7 +91,7 @@ export const projects = [
 
   {
     id: 3,
-    title: "Full-stack e-commerce app (PERN).",
+    title: "Full-stack E-commerce App (PERN)",
     des: "Full-featured e-commerce project with a React SPA front end and an Express/Node.js REST API backed by PostgreSQL. Add, edit, delete products. Used Neon database as the data store. Built to be deployment-ready and easy to extend.",
     img: "/ecommerce.png",
     iconLists: ["/re.svg", "/node.svg", "/postgres.png" ],
