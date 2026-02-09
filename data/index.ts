@@ -72,6 +72,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "AI Tryon Chrome Extension",
+    des: "This Chrome extension allows you to try on different clothes using AI. You can upload a photo of yourself and the extension will use AI to try on different clothes and see how they look on you.",
+    img: "/tryb4buy.png",
+    iconLists: ["/re.svg", "/html.svg", "/css3.svg"],
+    link: "https://tryb4buy.io",
+    githubLink: "https://github.com/My-Style-AI",
+  },
+  {
+    id: 2,
     title: "AI Background Check",
     des: "Get a background report on a prospective employee, tenant or anyone. Just enter their personal information. Great for landlords, financial institutions or daycares",
     img: "/ai-bg-check.png",
@@ -79,17 +88,9 @@ export const projects = [
     link: "https://open-ai-background-check.vercel.app/",
     githubLink: "https://github.com/tambiasawo/open-ai-background-check/",
   },
+
   {
-    id: 2,
-    title: "Rental Lisiting Application",
-    des: "This 7-step app takes you through the process of applying for a rental listing. From ID verification, to credit check to background check all the way to in-app signing of lease documents. This is your one-stop application for online renting ",
-    img: "/rental-app.png",
-    iconLists: ["re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://services.rentalapplication.rented123.com/?slug=1010-osprey-court-1",
-    githubLink: "https://github.com/techrented123/rental-app",
-  },
-  {
-    id: 4,
+    id: 3,
     title: "Full-stack e-commerce app (PERN).",
     des: "Full-featured e-commerce project with a React SPA front end and an Express/Node.js REST API backed by PostgreSQL. Add, edit, delete products. Used Neon database as the data store. Built to be deployment-ready and easy to extend.",
     img: "/ecommerce.png",
@@ -99,7 +100,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "NextJS Dashboard",
     des: "Not your normal dashboard. Built with NextJS 14, with interactive tables and advanced features. Sign in as either an admin or user. admin: peter, password: user: sarah, password",
     img: "/nextjsdashboard.png",
@@ -109,7 +110,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 5,
     title: "Netflix Clone",
     des: "Experience Netflix or rather have a taste Netflix. Sign in with test@test.com and 123456 or create your account",
     img: "/netflix.png",
@@ -118,7 +119,7 @@ export const projects = [
     githubLink: "https://github.com/tambiasawo/netflix-clone",
   },
   {
-    id: 7,
+    id: 6,
     title: "Image Gallery",
     des: "This app lets users fetch images from an external API based on your preferences and perform actions against the images.",
     img: "/image-gallery.png",
