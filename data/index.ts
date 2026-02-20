@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "AI Tryon Chrome Extension",
     des: "This Chrome extension allows you to try on different clothes using AI. You can upload a photo of yourself and the extension will use AI to try on different clothes and see how they look on you.",
-    img: "/tryb4buy.png",
+    img: "/tryb4buy-temp.png",
     iconLists: ["/re.svg", "/html.svg", "/css3.svg"],
     link: "https://tryb4buy.io",
     githubLink: "https://github.com/My-Style-AI",
