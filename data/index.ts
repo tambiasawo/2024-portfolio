@@ -71,6 +71,15 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 0, // set to your next index in the portfolio array
+    title: "CareerPath — Job Application Tracker",
+    des: "A full-stack web app for tracking job applications throughout your search. Sign in with email or Google, add and edit applications, filter by status, search by company or role, and paginate results. Includes a profile page, new-user onboarding, dark/light mode, and a mobile-friendly dashboard. Built with a Next.js frontend (BFF), FastAPI backend, PostgreSQL on Neon, and Neon Auth.",
+    img: "/careerpath-temp.png", // replace with your screenshot path
+    iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/tail.svg", "/fastapi.svg", "/postgresql.svg"],
+    link: "https://job-tracker-two-sandy.vercel.app",
+    githubLink: "https://github.com/tambiasawo/frontend",
+  },
+  {
     id: 1,
     title: "AI Tryon Chrome Extension",
     des: "This Chrome extension allows you to try on different clothes using AI. You can upload a photo of yourself and the extension will use AI to try on different clothes and see how they look on you.",
