@@ -74,7 +74,7 @@ export const projects = [
     id: 0, // set to your next index in the portfolio array
     title: "Job Application Tracker",
     des: "A full-stack web app for tracking job applications throughout your search. Sign in with email or Google, add and edit applications, filter by status, search by company or role, and paginate results. Includes a profile page, new-user onboarding, dark/light mode, and a mobile-friendly dashboard. Built with a Next.js frontend (BFF), FastAPI backend, PostgreSQL on Neon, and Neon Auth.",
-    img: "/careerpath-temp.png", // replace with your screenshot path
+    img: "/job-tracker.png", // replace with your screenshot path
     iconLists: ["/re.svg", "/next.svg", "http://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png", "https://wiki.postgresql.org/images/thumb/a/a4/PostgreSQL_logo.3colors.svg/1080px-PostgreSQL_logo.3colors.svg.png?20090213191835"],
     link: "https://job-tracker-two-sandy.vercel.app",
     githubLink: "https://github.com/tambiasawo/frontend",
