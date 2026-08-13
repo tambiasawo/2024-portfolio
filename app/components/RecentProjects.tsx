@@ -110,7 +110,7 @@ const RecentProjects = () => {
 
       <div className="flex justify-center mt-3">
         <a
-          href="https://drive.google.com/file/d/1DdsQ0UlE6KepkTJV1lBS7H7Qh8_bVVIo/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jsm_W9ugTQ5BH0lKv_olZcuuqBmuhf0r/view?usp=sharing"
           target="_blank"
           about="Tambi Resume"
         >
